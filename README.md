@@ -9,7 +9,7 @@ The code successfully runs on Python 3.6 and PyTorch 1.6.0. The PyTorch package 
 pip install -r requirements.txt
 ```
 
-The MNIST and CIFAR-10 datasets will be downloaded at running time. To run the audio task, one need to download the [SpeechCommand v0.02 dataset](http://download.tensorflow.org/data/speech_commands_v0.02.tar.gz), extract it under `raw_data/speech_command` folder and run `python audio_preprocess.py`. To run the NLP task, one need to download the [pretrained GoogleNews word embedding](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit), put it under `raw_data/rt_polarity` folder and run `python rtNLP_preprocess.py`; the movie review data is already in the folder. The Irish Smart Meter Electricity data is private and we do not include them here.
+The MNIST and CIFAR-10 datasets will be downloaded at running time. To run the audio task, one need to download the [SpeechCommand v0.02 dataset](http://download.tensorflow.org/data/speech_commands_v0.02.tar.gz), extract it under `raw_data/speech_command` folder and run `python audio_preprocess.py`. To run the NLP task, one need to download the [pretrained GoogleNews word embedding](https://drive.google.com/file/d/0B7XkCwpI5KDYNlNUTTlSS21pQmM/edit), extract it under `raw_data/rt_polarity` folder and run `python rtNLP_preprocess.py`; the movie review data is already in the folder. The Irish Smart Meter Electricity data is private and we do not include them here.
 
 ## Training Shadow Models and Target Models
 
